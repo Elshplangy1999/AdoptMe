@@ -364,3 +364,14 @@ form .pet {
 .mini .loader {
   font-size: 34px;
 }
+
+.custom {
+  display: flex;
+  justify-content: center;
+}
+
+.custom img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
