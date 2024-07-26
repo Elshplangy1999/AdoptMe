@@ -7,7 +7,7 @@ export const Pet = ({ name, animal, breed, images, location, id }) => {
   //   React.createElement("h2", {}, props.animal),
   //   React.createElement("h3", {}, props.breed),
   // ]);
-  let aniamlImage = "http://pets-images.dev-apis.com/pets/none.jpg";
+  let aniamlImage = "https://pets-images.dev-apis.com/pets/none.jpg";
   if (images.length) {
     aniamlImage = images[0];
   }

@@ -6,7 +6,7 @@ export default class Carousel extends Component {
   };
 
   static defaultProps = {
-    imaegs: ['http://pets-images.dev-apis.com/pets/none.jpg'],
+    imaegs: ['https://pets-images.dev-apis.com/pets/none.jpg'],
   };
 
   // handleClick(e) {
